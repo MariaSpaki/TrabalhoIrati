@@ -1,0 +1,144 @@
+body{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    width: 90%;
+    margin: 0 auto;
+    background-color: rgb(199, 209, 218);  
+}
+header{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: rgb(255, 255, 255);
+    margin-top: 20px;
+}
+.logo img{
+    width: 10%; 
+}
+.navbar{
+    overflow: hidden;
+}
+.navbar a{
+    color: rgb(41, 97, 132);
+    text-decoration: none;
+    padding: 10px; 
+    float: right;
+}
+.navbar a:hover{
+    color: rgb(0, 50, 81);
+}
+main{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.titulo{
+    color: rgb(41, 97, 132);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: underline;
+    text-align: center;
+}
+.imggrande img{
+    width: 100%;
+}
+.imgdentrobox img{
+    width: 600px;
+    padding: 10px;
+}
+.container{
+    display: flex;
+    padding: 10px;
+    background-color: rgb(41, 97, 132);
+    color:  rgb(199, 209, 218);
+    text-align: justify;
+    border-radius: 5px;
+    margin: 10px;
+    box-shadow: 3px 3px 5px #363d4392;
+}
+.imgdentrobox2 img{
+    width: 300px;
+    padding: 10px;
+}
+.container2{
+    display: flex;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    color:  rgb(41, 97, 132);
+    text-align: justify;
+    border-radius: 5px;
+    margin: 10px;
+    box-shadow: 3px 3px 5px #245a8992;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.container3{
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    color:  rgb(41, 97, 132);
+    text-align: justify;
+    border-radius: 5px;
+    margin: 10px;
+    box-shadow: 3px 3px 5px #245a8992;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.videos{
+    display: flex;
+    flex-direction: row;
+}
+.principal{
+    display: flex;
+    flex-direction: row;
+}
+.pt{
+    display: inline-block;
+    color: rgb(199, 209, 218);
+    margin: 15px 5px;
+    background-color: rgb(41, 97, 132);
+    text-align: justify;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px #363d4392;
+}
+h2{
+    text-align: center;
+}
+.ltlateral{
+    text-align: left;
+}
+.ltescura{
+    color: rgb(0, 30, 48);
+    font-weight: bold;
+}
+#imgturisticos1 img{
+    width: 81%;
+}
+#imgturisticos2 img{
+    width: 101%;
+}
+#imgturisticos3 img{
+    width: 86%;
+}
+ul li::marker{
+    color: rgb(25, 71, 99);
+    font-size: 1.5em;
+}
+table, th, td {
+    border: 3px solid;
+    padding: 15px;
+    text-align: left;
+    color:  rgb(41, 97, 132);
+    box-shadow: 3px 3px 5px #363d4392;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 18px;
+}
+tr:hover {
+    background-color: rgb(255, 255, 255);
+}
+.rodape{
+    background-color: rgb(199, 209, 218);
+    color: rgb(41, 97, 132);
+    font-size: 10px;
+    text-align: center;
+    padding: 5px;
+}
+@media screen and (max-width:600px){ 
+    .body, .principal, .conteudo{ 
+        width: 100%;
+        flex-direction: column;
+        padding: 0px;
+    }
+}
